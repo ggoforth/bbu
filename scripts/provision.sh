@@ -30,6 +30,7 @@ apt-get install -y python g++ make
 # node js
 curl --silent --location https://deb.nodesource.com/setup_0.12 | bash -
 apt-get install -y nodejs
+npm install -g gulp
 
 # installing mysql
 # pre-loading a default password --> yourpassword
