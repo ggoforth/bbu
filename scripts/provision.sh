@@ -21,12 +21,15 @@ apt-get install -y build-essential
 apt-get install -y vim
 apt-get install -y git
 
-#tmux & node ppas
 add-apt-repository -y ppa:pi-rho/dev
 
 apt-get update
 apt-get install -y tmux
 apt-get install -y python g++ make
+
+# node js
+curl --silent --location https://deb.nodesource.com/setup_0.12 | bash -
+apt-get install -y nodejs
 
 # installing mysql
 # pre-loading a default password --> yourpassword
