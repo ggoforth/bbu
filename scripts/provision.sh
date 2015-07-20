@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # simple vagrant provisioning script
-# installs : apache2, php 5.4 and mysql-server and client
-# installs : laravel in /vagrant shared folder
+# installs : apache2, php 5.5 and mysql-server and client, node js, and gulp
 
 # some coloring in outputs.
 COLOR="\033[;35m"
